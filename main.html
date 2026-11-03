@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>የሰንበት ትምህርት ቤት አስተዳደር ስርዓት</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="logo.png" alt="የሰንበት ትምህርት ቤት ሎጎ" class="church-logo">
+                <h1>የሰንበት ትምህርት ቤት መረጃ ማዕከል</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">ዋና ገጽ</a></li>
+                    <li><a href="#management">ስራ አመራር</a></li>
+                    <li><a href="#departments">ክፍላት</a></li>
+                    <li><a href="#attendance">አቴንዳንስ/ምዝገባ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>እንኳን ደህና መጡ</h2>
+        <p>ይህ የሰንበት ትምህርት ቤታችን የልማት፣ የአስተዳደር እና የትምህርት መከታተያ ድረ-ገጽ ነው።</p>
+    </section>
+
+    <section id="management" class="container">
+        <h2>የስራ አመራርና ጽሕፈት ቤት (11 አባላት)</h2>
+        <div class="grid-3">
+            <div class="card"><h3>የስራ አመራር ቦርድ</h3><p>11 አባላት ያሉት መሪ አካል።</p></div>
+            <div class="card"><h3>ጽሕፈት ቤት</h3><p>ዋናውን የጽሕፈት ስራ የሚያከናውን።</p></div>
+        </div>
+    </section>
+
+    <section id="departments" class="container">
+        <h2>ሰባቱ ክፍላት</h2>
+        <div class="grid-3">
+            <div class="card"><h3>1. የሰው ሃብት አስተዳደር</h3><p>ሰብሳቢ፣ ጸሐፊና ንዑስ አባላት አሉት። የአባላትን ሙሉ መረጃ እና አቴንዳንስ ይከታተላል።</p></div>
+            <div class="card"><h3>2. ትምህርትና ስልጠና ክፍል</h3><p>ሰብሳቢ፣ ጸሐፊና ንዑስ ክፍላት አሉት። የአባላትን ትምህርት አስቀድሞ ያቅዳል፣ ይተገብራል፣ ይከታተላል።</p></div>
+            <div class="card"><h3>3. መዝሙርና ኪነጥበብ ክፍል</h3><p>ሰብሳቢ፣ ጸሐፊና ንዑስ ክፍላት አሉት። የመዝሙር ጥናትን ያቅዳል፣ ይመረምራል፣ ያስጠናል።</p></div>
+            <div class="card"><h3>4. መረጃና የውስጥ ግንኙነት</h3><p>በውስጡ 4 ንዑስ ክፍላት፣ ሰብሳቢ፣ ጸሐፊና ንዑስ አባላት አሉት።</p></div>
+            <div class="card"><h3>5. የመርሃግብርና ጉባኤያት አስተዳደር</h3><p>ጉባኤያትን ያስተዳድራል፣ የአባላትን አቴንዳንስ ይሞላል፣ ያስሞላል፣ ይከታተላል።</p></div>
+            <div class="card"><h3>6. ሂሳብና ንብረት አስተዳደር</h3><p>አላቂና ቋሚ ንብረቶችን ይቆጣጠራል፤ ገቢና ወጪ ገንዘቦችን ያስተዳድራል።</p></div>
+            <div class="card"><h3>7. የልማት ተቋማትና በጎአድራጎት</h3><p>የሰንበት ትምህርት ቤቱን ገንዘብ ማግኛ መንገዶችን ያቅዳል፣ ይተገብራል።</p></div>
+        </div>
+    </section>
+
+    <section id="attendance" class="container bg-light">
+        <h2>የአባላት ምዝገባ እና አቴንዳንስ መሞከሪያ</h2>
+        <form id="memberForm">
+            <label for="name">የአባል ሙሉ ስም፦</label>
+            <input type="text" id="name" required placeholder="ለምሳሌ፦ አበበ ከበደ">
+            <label for="dept">የሚመደቡበት ክፍል፦</label>
+            <select id="dept">
+                <option value="1">የሰው ሃብት አስተዳደር</option>
+                <option value="2">ትምህርትና ስልጠና</option>
+                <option value="3">መዝሙርና ኪነጥበብ</option>
+                <option value="4">መረጃና የውስጥ ግንኙነት</option>
+                <option value="5">የመርሃግብርና ጉባኤያት</option>
+                <option value="6">ሂሳብና ንብረት</option>
+                <option value="7">የልማትና በጎአድራጎት</option>
+            </select>
+            <button type="submit">አባል መዝግብ</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 የሰንበት ትምህርት ቤት ድረ-ገጽ ልማት።</p>
+    </footer>
+</body>
+</html>
